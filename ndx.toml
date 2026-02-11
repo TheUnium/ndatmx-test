@@ -1,0 +1,10 @@
+[commands:termux]
+1="pkg install -y bun"
+2="bun install"
+3="bun run src/index.ts"
+
+[commands:debian13]
+1="curl -fsSL https://bun.sh/install | bash"
+2="export PATH=$HOME/.bun/bin:$PATH"
+3="bun install"
+4="bun run src/index.ts"
