@@ -6,7 +6,6 @@ const lines = [
 console.log("  running on " + process.platform);
 
 for (const line of lines) {
-    await Bun.sleep(400);
     console.log(`  ${line}`);
 }
 
